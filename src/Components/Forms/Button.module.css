@@ -1,0 +1,50 @@
+.button {
+    font-size: 12px;
+    font-family: var(--type-first);
+    cursor: pointer;
+    border: none;
+    border-radius: 2rem;
+    color: #121212;
+    min-width: 70px;
+    padding: 0.8rem 1.2rem;
+    box-sizing: border-box;
+    transition: 0.1s;
+    margin-right: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.signIn {
+    background: #fff;
+    font-family: var(--type-second);
+    border:solid 1px #121212
+}
+
+.save {
+    font-family: var(--type-third);
+    background: #fb1;
+}
+
+.button:hover,
+.button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px #fea, 0 0 0 4px #fb1;
+}
+
+.button:disabled {
+    opacity: 0.5;
+    cursor: wait;
+}
+
+@media (max-width: 40rem) {
+    .button {
+      width: 100%;
+      justify-content: center;
+      margin-bottom: 1rem;
+      font-size:14px
+    }
+    
+  }

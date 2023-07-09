@@ -1,0 +1,27 @@
+.header {
+  width: 100%;
+  background: #FFFFFF;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+  padding: 0px;
+}
+
+@media (max-width: 40rem) {
+  .logo {
+    display: none;
+  }
+  .header {
+    width: auto;
+    background: #F8F8F8;
+    
+  }
+  .nav {
+    height: auto;
+    align-items: flex-start;
+  }
+}

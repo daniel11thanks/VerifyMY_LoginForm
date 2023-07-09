@@ -1,0 +1,7 @@
+.checkbox {
+    display: flex;
+    align-items: center;
+    font-family: var(--type-second);
+    font-size: 12px;
+    margin-bottom: 2rem;
+}
